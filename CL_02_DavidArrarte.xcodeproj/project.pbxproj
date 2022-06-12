@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35F2570284D8AC400A1C677 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F256F284D8AC400A1C677 /* ViewModel.swift */; };
+		C35F2573284D8B3100A1C677 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35F2572284D8B3100A1C677 /* Todo.swift */; };
+		C35F2575284DBB5200A1C677 /* firebase_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C35F2574284DBB5100A1C677 /* firebase_logo.png */; };
+		C36BA770284D49A300ADBB7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C36BA76F284D49A300ADBB7F /* GoogleService-Info.plist */; };
 		C3BAB840284D2AB800FC2AF8 /* CL_02_DavidArrarteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAB83F284D2AB800FC2AF8 /* CL_02_DavidArrarteApp.swift */; };
 		C3BAB842284D2AB800FC2AF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3BAB841284D2AB800FC2AF8 /* ContentView.swift */; };
 		C3BAB844284D2AB900FC2AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BAB843284D2AB900FC2AF8 /* Assets.xcassets */; };
 		C3BAB847284D2AB900FC2AF8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3BAB846284D2AB900FC2AF8 /* Preview Assets.xcassets */; };
+		CBF303FDFEA43E70EA21680F /* Pods_CL_02_DavidArrarte.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CC2B820A5374D034D33ACD /* Pods_CL_02_DavidArrarte.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B225CBE7DF705D076F7FABF /* Pods-CL_02_DavidArrarte.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL_02_DavidArrarte.release.xcconfig"; path = "Target Support Files/Pods-CL_02_DavidArrarte/Pods-CL_02_DavidArrarte.release.xcconfig"; sourceTree = "<group>"; };
+		9572D8263721560176E771E3 /* Pods-CL_02_DavidArrarte.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CL_02_DavidArrarte.debug.xcconfig"; path = "Target Support Files/Pods-CL_02_DavidArrarte/Pods-CL_02_DavidArrarte.debug.xcconfig"; sourceTree = "<group>"; };
+		C35F256F284D8AC400A1C677 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C35F2572284D8B3100A1C677 /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		C35F2574284DBB5100A1C677 /* firebase_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firebase_logo.png; sourceTree = "<group>"; };
+		C36BA76F284D49A300ADBB7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C3BAB83C284D2AB800FC2AF8 /* CL_02_DavidArrarte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CL_02_DavidArrarte.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3BAB83F284D2AB800FC2AF8 /* CL_02_DavidArrarteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CL_02_DavidArrarteApp.swift; sourceTree = "<group>"; };
 		C3BAB841284D2AB800FC2AF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C3BAB843284D2AB900FC2AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3BAB846284D2AB900FC2AF8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8CC2B820A5374D034D33ACD /* Pods_CL_02_DavidArrarte.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CL_02_DavidArrarte.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +38,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF303FDFEA43E70EA21680F /* Pods_CL_02_DavidArrarte.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5673F09424B740FA533C0ACC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9572D8263721560176E771E3 /* Pods-CL_02_DavidArrarte.debug.xcconfig */,
+				7B225CBE7DF705D076F7FABF /* Pods-CL_02_DavidArrarte.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		89301BECA9170FD69BD0A922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8CC2B820A5374D034D33ACD /* Pods_CL_02_DavidArrarte.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C35F256E284D8AAE00A1C677 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C35F256F284D8AC400A1C677 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C35F2571284D8B1000A1C677 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C35F2574284DBB5100A1C677 /* firebase_logo.png */,
+				C35F2572284D8B3100A1C677 /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C3BAB833284D2AB800FC2AF8 = {
 			isa = PBXGroup;
 			children = (
 				C3BAB83E284D2AB800FC2AF8 /* CL_02_DavidArrarte */,
 				C3BAB83D284D2AB800FC2AF8 /* Products */,
+				5673F09424B740FA533C0ACC /* Pods */,
+				89301BECA9170FD69BD0A922 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,7 +100,10 @@
 		C3BAB83E284D2AB800FC2AF8 /* CL_02_DavidArrarte */ = {
 			isa = PBXGroup;
 			children = (
+				C35F2571284D8B1000A1C677 /* Models */,
+				C35F256E284D8AAE00A1C677 /* ViewModels */,
 				C3BAB83F284D2AB800FC2AF8 /* CL_02_DavidArrarteApp.swift */,
+				C36BA76F284D49A300ADBB7F /* GoogleService-Info.plist */,
 				C3BAB841284D2AB800FC2AF8 /* ContentView.swift */,
 				C3BAB843284D2AB900FC2AF8 /* Assets.xcassets */,
 				C3BAB845284D2AB900FC2AF8 /* Preview Content */,
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3BAB84A284D2AB900FC2AF8 /* Build configuration list for PBXNativeTarget "CL_02_DavidArrarte" */;
 			buildPhases = (
+				22430B3068E78CEABE1667CC /* [CP] Check Pods Manifest.lock */,
 				C3BAB838284D2AB800FC2AF8 /* Sources */,
 				C3BAB839284D2AB800FC2AF8 /* Frameworks */,
 				C3BAB83A284D2AB800FC2AF8 /* Resources */,
+				0383DC0BAA1A7C3532D050E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +180,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BAB847284D2AB900FC2AF8 /* Preview Assets.xcassets in Resources */,
+				C35F2575284DBB5200A1C677 /* firebase_logo.png in Resources */,
 				C3BAB844284D2AB900FC2AF8 /* Assets.xcassets in Resources */,
+				C36BA770284D49A300ADBB7F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0383DC0BAA1A7C3532D050E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL_02_DavidArrarte/Pods-CL_02_DavidArrarte-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CL_02_DavidArrarte/Pods-CL_02_DavidArrarte-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CL_02_DavidArrarte/Pods-CL_02_DavidArrarte-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22430B3068E78CEABE1667CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CL_02_DavidArrarte-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C3BAB838284D2AB800FC2AF8 /* Sources */ = {
@@ -138,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3BAB842284D2AB800FC2AF8 /* ContentView.swift in Sources */,
+				C35F2570284D8AC400A1C677 /* ViewModel.swift in Sources */,
 				C3BAB840284D2AB800FC2AF8 /* CL_02_DavidArrarteApp.swift in Sources */,
+				C35F2573284D8B3100A1C677 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +363,7 @@
 		};
 		C3BAB84B284D2AB900FC2AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9572D8263721560176E771E3 /* Pods-CL_02_DavidArrarte.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,6 +392,7 @@
 		};
 		C3BAB84C284D2AB900FC2AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B225CBE7DF705D076F7FABF /* Pods-CL_02_DavidArrarte.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
